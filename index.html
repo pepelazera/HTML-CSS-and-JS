@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 
-<html>
-    <head> 
-        <title>My first website </title> <!-- Quando abrimos no navegador, o title aparece bem na aba do proprio, como realmente um titulo para a aba, como ja diz o nome, title -->
-    </head> <!-- Aqui eh onde ficam as informacoes que nao sao mostradas diretamente na tela no navegador, eh o meu cabecalho. Aqui ficarao todas as informacoes de fundo importantes, mas nao para visualizacao -->
-
+<html>    
+    <title>
+        <head>HTML Cheat Sheet</head>
+    </title>
 
     <body>
-                                            <!-- O h1 vai servir pra dizer que esse eh meu cabecalho, entao vai deixar ele como um titulo e o que vier depois vem como uma frase padrao ou um subtitulo-->
-        <h1> This is my first ever website! </h1> <!-- O "p" em HTML significa paragrafo, e nos colocamos somente a letra "p", pois por ele ser muito utilizado nos codigos, fica mais pratico -->
-                                            <!-- Voce so pode ter 1 h1 por pagina -->
-        <p> Hello there, how are you ?  </p> 
-        
+        <!-- Headings -->
+        <!-- The heads respect a hierarchy -->
+
+        <h1>
+            Heading One
+        </h1>
+
         <h2>
-            <p></p>
+            Heading two
         </h2>
 
-        <h2>HTML</h2>
-        <p>HMTL is the building blocks of webpages</p>
+        <h3>
+            Heading three
+        </h3>
+
+        <h4>
+            Heading four
+        </h4>
+
+        <h5>
+            Heading five
+        </h5>
+
+        <h6>
+            Heading six
+        </h6>
+
+        <!-- In the Browser, the smallest phrase will be the h6, because it's the last on the hierarchy -->
 
 
-        <h2>CSS</h2>
-        <p>CSS is what makes websites look cool</p>
-    </body> <!-- O body eh o responsavel por exibir o conteudo na pagina para o usuario -->
+        <!-- Paragraph -->
+        <p>
+            <em><strong>Lorem Ipsum dolor sit amet consectetur, adipisicing elit.</strong></em>
+            Velit iusto, <em>nemo fugit eligendi et autem temporibus voluptas earum consectetur</em> explicabo ullam dolores ea optio. 
+            Laborum, magnam? Fugit voluptas rem impedit!
+        </p>
 
-</html>
+
+        <!-- The "a"  sytanx will be a syntax that we use to transform some phrase in a link or a local to open -->
+        <p>
+            <strong>Lorem ipsum dolor sit amet <a href="">adipisicing elit. Quaerat, at.</strong></a> 
+        </p>
+
+        <!-- When I see the page, this phrase will be a link we usually see in other sites-->
+        <p>
+            <a href="about.html">ipsum dolor sit amet consectetur adipisicing elit. Beatae, commodi. Quod eos doloremque quaerat non.</a>
+        </p>
+
+        <!-- When I click in this link,
+                                                                                                    the google will be open, because
+                                                                                                    I put the google URL -->
+        <p>
+            <a href="https://google.com" target="_blank">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Laudantium temporibus accusamus consequuntur, 
+                officia amet inventore sed facere pariatur laboriosam recusandae incidunt debitis, aliquam culpa nam?</a>
+        </p>>
+
+        <p>
+            <a href="https://youtube.com"> Click to open the youtube</a> <!-- Here, the youtube will be open on the same page -->
+        </p>
+
+        <p> <!-- And here, the reddit will be open on a new page -->
+            <a href="https://reddit.com" target="_blank">Click to open the reddi in the other paget</a> 
+        </p>       
+    </body>
+</html> 
